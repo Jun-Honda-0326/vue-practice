@@ -1,0 +1,6 @@
+2020.11.28 18:35:20 INFO  Started: Metals version 0.9.7 in workspace '/Users/jun/projects/vue/vue-practice' for client vscode.
+2020.11.28 18:35:22 INFO  time: initialize in 2.62s
+2020.11.28 18:35:24 WARN  Build server is not auto-connectable.
+2020.11.28 18:35:24 WARN  no build tool detected in workspace '/Users/jun/projects/vue/vue-practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+11 28, 2020 6:36:39 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
