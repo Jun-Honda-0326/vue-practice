@@ -1,3 +1,7 @@
+Vue.component('hello-component', {
+    template: '<p>これはコンポーネントです</p>'
+})
+
 var app = new Vue({
     //options
     //オプション名: 値
@@ -8,10 +12,17 @@ var app = new Vue({
         user: {
             lastName: 'Yamada',
             firstNmae: 'Tarou',
-            prefecture: 'Tokyo'
+            age: '20'
         },
         colors: ['Red', 'Green', 'Blue'],
-        toggle: true
+        toggle: true,
+        colors: ['Red', 'Green', 'Blue'],
+        now: ''
+    },
+    methods: {
+        onclick: function() {
+            this.now = new Date().toLocaleString();
+        }
     }
 
 

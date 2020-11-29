@@ -24,15 +24,52 @@
         </p>
 
 
+        <hr>
         <input type="text" v-bind:value="message">
+        </hr>
 
         <p v-if="toggle">
             v-if
         </p>
 
+
+        <hr>
         <p v-show="toggle">
             v-show
         </p>
+        </hr>
+
+        <hr>
+        <ol>
+            <li v-for="color in colors">{{color}}</li>
+        </ol>
+        </hr>
+
+        <hr>
+        <ul>
+            <li v-for="value in user">{{value}}</li>
+        </ul>
+        </hr>
+
+        <hr>
+        <li v-for="(v, k) in user">{{k}}:{{v}}</li>
+        </hr>
+
+        <hr>
+        <button v-on:click="onclick">Click</button>
+        <p>{{now}}</p>
+        </hr>
+
+        <hr>
+        <input type="text" v-model="message">
+        <input type="text" v-model="message">
+        </hr>
+
+        <hr>
+        <hello-component></hello-component>
+        <hello-component></hello-component>
+        </hr>
+
 
 
 
