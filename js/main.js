@@ -10,7 +10,8 @@ var app = new Vue({
             firstNmae: 'Tarou',
             prefecture: 'Tokyo'
         },
-        colors: ['Red', 'Green', 'Blue']
+        colors: ['Red', 'Green', 'Blue'],
+        toggle: true
     }
 
 
